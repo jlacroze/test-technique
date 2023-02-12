@@ -2,22 +2,17 @@
 
 First, clone the project:
 
-```bash
 git clone https://github.com/jlacroze/test-technique.git
 
 Second, download the dependencies : 
-```bash
 
 npm install 
 
 Third, you can run the project : 
-```bash
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-```
 
 Finaly you can see the result in your navigator : 
 
