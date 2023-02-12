@@ -11,7 +11,9 @@ npm install
 Third, you can run the project : 
 
 npm run dev
-# or
+
+or
+
 yarn dev
 
 Finaly you can see the result in your navigator : 
