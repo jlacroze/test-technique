@@ -1,0 +1,51 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #151515;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  .image-container {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    cursor: none;
+    overflow: hidden;
+  }
+  .image-to-zoom {
+    display: block;
+    width: 100%;
+  }
+  .items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    width: 300px;
+    margin: 60px auto 0;
+    padding: 15px;
+    background-color: #E6E6E6;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    .item {
+      width: 25%;
+      display: flex;
+    }
+    .button {
+      background: transparent;
+      border: none;
+      width: 80px;
+      height: 80px;
+    }
+    .thumbs {
+      width: 100%;
+    }
+    .thumbs:hover {
+      cursor: pointer;
+    }
+  }
+}
